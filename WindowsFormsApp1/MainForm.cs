@@ -52,7 +52,31 @@ namespace WindowsFormsApp1
             country.setCountryName("Bosnia Herxegovina");
             countries[4] = country;
 
+            Player player = new Player();
+            player.setAll(1, "Mo", "Williams", "female", 1.85f ,  89.8f, "1", "test@test", "US", 1) ;
+            player.setAll(2, "Alonzo", "Edward Gee", "male",1.98f,99f,"2", "test@test", "US", 2);
+            player.setAll(3, "Johnny", "O'Bryant", "male", 2.05f, 116.5f, "3", "test@test", "US", 3);
+            player.setAll(4, "Danilo", "Gallinari", "female", 2.08f, 102f, "4", "test@test", "US", 4);
+            player.setAll(5, "Darrel", "Arthur", "male", 2.06f, 107f, "5", "test@test", "US", 5);
+            Team team = new Team();
+            team.setAll(1, "Miami Heat", "MIA", "1.jpg");
+            team.setAll(2, "Orlando Magic", "ORL", "2.jpg");
+            team.setAll(3, "Atlanta Hawks", "ATL", "3.jpg");
+            team.setAll(4, "Washington Wizards", "WSH", "4.jpg");
+            team.setAll(5, "Charlotte Hornets", "CHA", "5.jpg");
 
+            PositionName positionName = new PositionName();
+            positionName.setAll(1, "SmallForward");
+            positionName.setAll(2, "PowerForward");
+            positionName.setAll(3, "Center");
+            positionName.setAll(4, "ShootingGuard");
+            positionName.setAll(5, "PointGuard");
+            PositionOfPlayer positionOfPlayer = new PositionOfPlayer();
+            positionOfPlayer.setAll(1,3);
+            positionOfPlayer.setAll(2,4);
+            positionOfPlayer.setAll(3,5);
+            positionOfPlayer.setAll(4,1);
+            positionOfPlayer.setAll(5,2);
 
 
         }

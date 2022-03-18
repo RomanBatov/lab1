@@ -54,6 +54,9 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Player.cs" />
+    <Compile Include="PositionName.cs" />
+    <Compile Include="PositionOfPlayer.cs" />
+    <Compile Include="Team.cs" />
     <Compile Include="VisitorForm.cs">
       <SubType>Form</SubType>
     </Compile>
