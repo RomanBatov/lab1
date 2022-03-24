@@ -57,6 +57,18 @@
     <Compile Include="PositionName.cs" />
     <Compile Include="PositionOfPlayer.cs" />
     <Compile Include="Team.cs" />
+    <Compile Include="TeamsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamsDetails.Designer.cs">
+      <DependentUpon>TeamsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeamsMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeamsMain.Designer.cs">
+      <DependentUpon>TeamsMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="VisitorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TeamsDetails.resx">
+      <DependentUpon>TeamsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeamsMain.resx">
+      <DependentUpon>TeamsMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VisitorForm.resx">
       <DependentUpon>VisitorForm.cs</DependentUpon>
     </EmbeddedResource>

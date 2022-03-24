@@ -21,3 +21,5 @@ C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.G
 C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TeamsMain.resources
+C:\Users\batov\Desktop\lab1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.TeamsDetails.resources

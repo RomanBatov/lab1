@@ -55,6 +55,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -147,7 +148,7 @@
             this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem;
-            this.bindingNavigator1.Size = new System.Drawing.Size(1199, 25);
+            this.bindingNavigator1.Size = new System.Drawing.Size(1205, 25);
             this.bindingNavigator1.TabIndex = 8;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 
@@ -257,8 +258,8 @@
             this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label2.Size = new System.Drawing.Size(669, 48);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Welcome to use this NBA Management System, you can\r\n redirect to different pages " +
-    "according to your role by clicking the buttons bellow.";
+            this.label2.Text = "               Welcome to use this NBA Management System, you can\r\n redirect to d" +
+    "ifferent pages according to your role by clicking the buttons bellow.";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox4
@@ -266,7 +267,7 @@
             this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources._150px_National_Basketball_Association_logo;
             this.pictureBox4.Location = new System.Drawing.Point(36, 39);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(49, 106);
+            this.pictureBox4.Size = new System.Drawing.Size(69, 125);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
@@ -325,11 +326,25 @@
             this.label3.TabIndex = 14;
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Location = new System.Drawing.Point(0, 537);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1205, 22);
+            this.textBox1.TabIndex = 16;
+            this.textBox1.Text = "The current season is 2016-2017, and the NBA already has a history of 71 years.";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 557);
+            this.ClientSize = new System.Drawing.Size(1205, 557);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -381,6 +396,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
