@@ -12,13 +12,14 @@ namespace WindowsFormsApp1
 {
     public partial class VisitorForm : Form
     {
-        public VisitorForm()
+        internal VisitorForm()
         {
             InitializeComponent();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            this.Close();
             
         }
 

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class Team
+    public class Team
     {
         int teamId;
-        string name;
+        public string name;
         string abbr;
-        string logo;
-        public void setAll(int teamId, String name, string abbr, string logo)
+        public string logo;
+        public void setAll(int teamId, string name, string abbr, string logo)
         {
             this.teamId = teamId;
             this.name = name;
