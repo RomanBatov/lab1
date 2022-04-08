@@ -27,8 +27,7 @@ namespace WindowsFormsApp1
             this.teams[3].setAll(4, "Washington Wizards", "WSH", "4.jpg");
             this.teams[4] = new Team();
             this.teams[4].setAll(5, "Charlotte Hornets", "CHA", "5.jpg");
-            var label = tn1;
-            this.pn1.Controls["tn1"].Text = teams[0].name;
+            
 
 
 
@@ -36,7 +35,8 @@ namespace WindowsFormsApp1
             for (int i = 0; i < 5; i++)
             {
 
-                tabPage1.Controls["panel4"].Controls["pn1"].Controls["tn1"+(1+i)].Text = teams[i].name;
+                tabControl1.Controls["tabPage1"].Controls["panel4"].Controls["pn"+(i+1)].Controls["tn"+(i+1)].Text = teams[i].name;
+                
             }
                 
 
@@ -111,6 +111,11 @@ namespace WindowsFormsApp1
         }
 
         private void textBox2_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }

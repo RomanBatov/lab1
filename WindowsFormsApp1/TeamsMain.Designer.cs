@@ -44,31 +44,30 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tn5 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pb5 = new System.Windows.Forms.PictureBox();
             this.pn3 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.tn3 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pb3 = new System.Windows.Forms.PictureBox();
             this.pn4 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.tn4 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pb4 = new System.Windows.Forms.PictureBox();
             this.pn2 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.tn2 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pb2 = new System.Windows.Forms.PictureBox();
             this.pn1 = new System.Windows.Forms.Panel();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
             this.tn1 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel15 = new System.Windows.Forms.Panel();
             this.pn15 = new System.Windows.Forms.Panel();
@@ -231,20 +230,20 @@
             this.tn16 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.pb1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.pn5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
             this.pn3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
             this.pn4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
             this.pn2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             this.pn1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.panel15.SuspendLayout();
             this.pn15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
@@ -301,6 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             this.pn16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -405,7 +405,7 @@
             this.pn5.Controls.Add(this.label4);
             this.pn5.Controls.Add(this.label5);
             this.pn5.Controls.Add(this.tn5);
-            this.pn5.Controls.Add(this.pictureBox2);
+            this.pn5.Controls.Add(this.pb5);
             this.pn5.Location = new System.Drawing.Point(0, 333);
             this.pn5.Name = "pn5";
             this.pn5.Size = new System.Drawing.Size(315, 70);
@@ -450,15 +450,15 @@
             this.tn5.TabIndex = 1;
             this.tn5.Text = "Team Name";
             // 
-            // pictureBox2
+            // pb5
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(67, 64);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
+            this.pb5.Image = ((System.Drawing.Image)(resources.GetObject("pb5.Image")));
+            this.pb5.Location = new System.Drawing.Point(0, 3);
+            this.pb5.Name = "pb5";
+            this.pb5.Size = new System.Drawing.Size(67, 64);
+            this.pb5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb5.TabIndex = 0;
+            this.pb5.TabStop = false;
             // 
             // pn3
             // 
@@ -466,7 +466,7 @@
             this.pn3.Controls.Add(this.label8);
             this.pn3.Controls.Add(this.label9);
             this.pn3.Controls.Add(this.tn3);
-            this.pn3.Controls.Add(this.pictureBox3);
+            this.pn3.Controls.Add(this.pb3);
             this.pn3.Location = new System.Drawing.Point(0, 184);
             this.pn3.Name = "pn3";
             this.pn3.Size = new System.Drawing.Size(315, 70);
@@ -511,15 +511,16 @@
             this.tn3.TabIndex = 1;
             this.tn3.Text = "Team Name";
             // 
-            // pictureBox3
+            // pb3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(67, 64);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
+            this.pb3.Image = ((System.Drawing.Image)(resources.GetObject("pb3.Image")));
+            this.pb3.Location = new System.Drawing.Point(0, 3);
+            this.pb3.Name = "pb3";
+            this.pb3.Size = new System.Drawing.Size(67, 64);
+            this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb3.TabIndex = 0;
+            this.pb3.TabStop = false;
+            this.pb3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pn4
             // 
@@ -527,7 +528,7 @@
             this.pn4.Controls.Add(this.label16);
             this.pn4.Controls.Add(this.label17);
             this.pn4.Controls.Add(this.tn4);
-            this.pn4.Controls.Add(this.pictureBox5);
+            this.pn4.Controls.Add(this.pb4);
             this.pn4.Location = new System.Drawing.Point(0, 260);
             this.pn4.Name = "pn4";
             this.pn4.Size = new System.Drawing.Size(315, 70);
@@ -572,15 +573,15 @@
             this.tn4.TabIndex = 1;
             this.tn4.Text = "Team Name";
             // 
-            // pictureBox5
+            // pb4
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(67, 64);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
+            this.pb4.Image = ((System.Drawing.Image)(resources.GetObject("pb4.Image")));
+            this.pb4.Location = new System.Drawing.Point(0, 3);
+            this.pb4.Name = "pb4";
+            this.pb4.Size = new System.Drawing.Size(67, 64);
+            this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb4.TabIndex = 0;
+            this.pb4.TabStop = false;
             // 
             // pn2
             // 
@@ -588,7 +589,7 @@
             this.pn2.Controls.Add(this.label20);
             this.pn2.Controls.Add(this.label21);
             this.pn2.Controls.Add(this.tn2);
-            this.pn2.Controls.Add(this.pictureBox6);
+            this.pn2.Controls.Add(this.pb2);
             this.pn2.Location = new System.Drawing.Point(0, 108);
             this.pn2.Name = "pn2";
             this.pn2.Size = new System.Drawing.Size(315, 70);
@@ -633,15 +634,15 @@
             this.tn2.TabIndex = 1;
             this.tn2.Text = "Team Name";
             // 
-            // pictureBox6
+            // pb2
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(67, 64);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 0;
-            this.pictureBox6.TabStop = false;
+            this.pb2.Image = ((System.Drawing.Image)(resources.GetObject("pb2.Image")));
+            this.pb2.Location = new System.Drawing.Point(0, 3);
+            this.pb2.Name = "pb2";
+            this.pb2.Size = new System.Drawing.Size(67, 64);
+            this.pb2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb2.TabIndex = 0;
+            this.pb2.TabStop = false;
             // 
             // pn1
             // 
@@ -649,7 +650,7 @@
             this.pn1.Controls.Add(this.label60);
             this.pn1.Controls.Add(this.label61);
             this.pn1.Controls.Add(this.tn1);
-            this.pn1.Controls.Add(this.pictureBox16);
+            this.pn1.Controls.Add(this.pb1);
             this.pn1.Location = new System.Drawing.Point(0, 32);
             this.pn1.Name = "pn1";
             this.pn1.Size = new System.Drawing.Size(315, 70);
@@ -696,17 +697,6 @@
             this.tn1.TabIndex = 1;
             this.tn1.Text = "Team Name";
             this.tn1.Click += new System.EventHandler(this.label62_Click);
-            // 
-            // pictureBox16
-            // 
-            this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(67, 64);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox16.TabIndex = 0;
-            this.pictureBox16.TabStop = false;
-            this.pictureBox16.Click += new System.EventHandler(this.pictureBox16_Click);
             // 
             // textBox2
             // 
@@ -2391,6 +2381,17 @@
             this.textBox5.Text = "Northwest";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // pb1
+            // 
+            this.pb1.Image = ((System.Drawing.Image)(resources.GetObject("pb1.Image")));
+            this.pb1.Location = new System.Drawing.Point(0, 3);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(67, 64);
+            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb1.TabIndex = 0;
+            this.pb1.TabStop = false;
+            this.pb1.Click += new System.EventHandler(this.pictureBox16_Click);
+            // 
             // TeamsMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2412,19 +2413,18 @@
             this.panel4.PerformLayout();
             this.pn5.ResumeLayout(false);
             this.pn5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
             this.pn3.ResumeLayout(false);
             this.pn3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
             this.pn4.ResumeLayout(false);
             this.pn4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
             this.pn2.ResumeLayout(false);
             this.pn2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
             this.pn1.ResumeLayout(false);
             this.pn1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.panel15.ResumeLayout(false);
             this.panel15.PerformLayout();
             this.pn15.ResumeLayout(false);
@@ -2511,6 +2511,7 @@
             this.pn16.ResumeLayout(false);
             this.pn16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2597,31 +2598,30 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label tn5;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pb5;
         private System.Windows.Forms.Panel pn3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label tn3;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pb3;
         private System.Windows.Forms.Panel pn4;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label tn4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pb4;
         private System.Windows.Forms.Panel pn2;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label tn2;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pb2;
         private System.Windows.Forms.Panel pn1;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label tn1;
-        private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel pn30;
@@ -2719,5 +2719,6 @@
         private System.Windows.Forms.Label tn16;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.PictureBox pb1;
     }
 }
